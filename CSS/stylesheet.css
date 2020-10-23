@@ -1,0 +1,92 @@
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto 0 auto;
+	padding:0 5% 0 5%;
+}
+nav ul li{
+display:inline-block;
+margin:0 20px 0 0;
+padding:0;	
+font-size: 1.5em;
+
+}
+
+.socialicons{
+	max-height: 60px;
+	max-width: 60px;
+	margin-left:20px;
+	text-align:center;
+	
+}
+nav a:hover{
+	font-weight:bold;
+	color:green;
+}
+
+
+a{
+	color:red;
+}
+
+.aboutmesize{
+	max-height:140px;
+	max-width:140px;
+}
+
+h1{
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	
+}
+body{
+	font-family: 'Merienda One', cursive;
+}
+footer{
+	font-size: 1.25em;
+	color: #222222;
+	text-align:center;
+	clear:both;
+}
+footer p {
+	font-style:italic;
+}
+header ul{
+	text-align:center;
+}
+header a{
+	text-decoration:none;
+}
+#portfolio{
+	list-style:none;
+}
+#portfolio li{
+	width: 95%;
+	margin: 10% 2.5% 0 2.5%;
+}
+img{
+	max-width:85%;
+}
+.sidebar ul{
+	text-decoration:none;
+	text-align:left;
+}
+.sidebar{
+	float:right;
+	margin-left:30px;
+	
+}
+.sidebar h3{
+	text-align:center;
+}
+.blogpost{
+
+}
+
+
+@media screen and (min-width: 900px){
+	#portfolio li{
+		float:left;
+		width:27%;
+		margin:2.5%;
+	
+}
